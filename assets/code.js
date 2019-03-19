@@ -17,14 +17,14 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('I am: ')
+typewriter
+    .typeString('I am: ')
     .pauseFor(2500)
-    .deleteAll()
-    .typeString('Strings can be removed')
+    .typeString('<strong class="aboutMe">determined!</strong>')
     .pauseFor(2500)
-    .deleteChars(7)
-    .typeString('<strong>altered!</strong>')
-    // .pauseFor(2500)
+    .deleteChars(11)
+    .typeString('<strong>passionate</strong>')
+    .pauseFor(1500)
     .start();
 
 

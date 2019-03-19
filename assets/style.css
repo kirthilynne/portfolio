@@ -70,6 +70,10 @@ body {
     font-family: 'Oswald';
 }
 
+#about:hover, #portfolio:hover, #contact:hover {
+  cursor: pointer;
+}
+
 
 .about {
     background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/04/10/37/2758174f164531b.jpg');
@@ -85,7 +89,16 @@ body {
     /* background-image: url('https://i.pinimg.com/736x/d0/13/6f/d0136f768bf1f7a0712ac8742edf01cb--watercolor-background-pastel-pastel-ombre-background.jpg'); */
 }
 
+/* ┌ ------------------------- ┐ */
+/* |                           | */
+/* | Typewriter Custom Classes |*/
+/* |                           | */                                    
+/* └ ------------------------- ┘ */
 
+.aboutMe {
+  color: red;
+  background-color: white;
+}
 
 /* ┌ --------------------- ┐ */
 /* |                       | */
