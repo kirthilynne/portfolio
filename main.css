@@ -147,6 +147,13 @@ i {
     margin-top: 15px;
 }
 
+#mePic {
+    float: left;
+    height: 325px;
+    width: 325px;
+    padding-right: 5px;
+}
+
 /****************/
 /* WORK CONTENT */
 /****************/
@@ -239,14 +246,15 @@ i {
   transition: .6s ease;
 }
 
-@media (min-width: 1356px) {
+@media (min-width: 1000px) {
   .card {
-    width: 49%;
+    width: 31%;
     display: inline-block;
   }
 }
 
-@media (max-width: 1356px) and (min-width: 718px) {
+
+@media (max-width: 1000px) and (min-width: 718px) {
   .card {
     width: 48%;
     display: inline-block;
