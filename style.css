@@ -85,9 +85,9 @@ i {
 /* HOME SECTION */
 
 section#home {
-    background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);  
+    /* background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);   */
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
     text-align: center;  
-    /* display: flex;  */
 }
 
 #home-title {
@@ -112,7 +112,8 @@ section#home .btn {
 /* ABOUT SECTION */
 
 section#about {
-    background-image: linear-gradient(120deg, #5ee7df 0%, #b490ca 100%);
+    /* background-image: linear-gradient(-120deg, #a6c1ee 0%, #fbc2eb 100%);   */
+    background: linear-gradient(-120deg, #8ec5fc  0%,#e0c3fc 100%);
 }
 
 section#about .buttons {
@@ -150,6 +151,7 @@ section#about .btn {
 
 section#work {
     flex-direction: column;
+    /* background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);   */
     background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
@@ -207,7 +209,8 @@ section#work .btn {
 /* WORK SECTION */
 
 section#contact {
-    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    /* background-image: linear-gradient(-120deg, #a6c1ee 0%, #fbc2eb 100%);   */
+    background: linear-gradient(-120deg, #8ec5fc  0%,#e0c3fc 100%);
     flex-direction: column;
 }
 
