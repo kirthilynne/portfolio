@@ -7,45 +7,165 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
-    <title>Home</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href='./style.css'>
+    <title>KLB | Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
 </head>
 
 <body>
-
-
-
-    <div class="home-content">
-        <div id="content">
-            <div class="header">
-                <h1 id='home-title'></i>Kirthi Lynne Bisset</h1>
-                <i class="fas fa-laptop-code fa-4x"></i>
-                <h3 id='home-subtitle'> ━━━━ Web Developer ━━━━</h3>
+    <div class="container">
+        <section id="home">
+            <div>
+                <div>
+                    <h1 class='title'></i>Kirthi Lynne Bisset</h1>
+                    <i class="fas fa-laptop-code fa-4x"></i>
+                    <h3 id='home-subtitle'> ━━━━ Web Developer ━━━━</h3>
+                </div>
+                <div id='home-buttons' class="buttons">
+                    <a class='btn' href="#about">About</a>
+                    <a class='btn' href="#work">Portfolio</a>
+                    <a class='btn' href="#contact">Contact</a>
+                </div>
+                <div class="home-icons">
+                    <a class='home-icon' target="_blank" href="https://github.com/klynne23"><i
+                            class="fab fa-github fa-2x"></i></a>
+                    <a class='home-icon' target="_blank" href="https://twitter.com/KirthiLynne"><i
+                            class="fab fa-twitter-square fa-2x"></i></a>
+                    <a class='home-icon' target="_blank" href="https://www.linkedin.com/in/kirthi-bisset-720aa0104/"><i
+                            class="fab fa-linkedin fa-2x"></i></a>
+                </div>
             </div>
-            <div id='home-buttons' class="buttons">
-                <a class='btn' href="./about.html">About</a>
-                <a class='btn' href="./work.html">Portfolio</a>
-                <a class='btn' href="./contact.html">Contact</a>
+        </section>
+        <section id="about">
+            <h1 class='title'>About</h1>
+            <div class="buttons">
+                <a class='btn' href="#home">Home</a>
+                <a class='btn' href="#work">Portfolio</a>
+                <a class='btn' href="#contact">Contact</a>
             </div>
-            <div class="home-icons">
-                <a class='home-icon' target="_blank" href="https://github.com/klynne23"><i
-                        class="fab fa-github fa-2x"></i></a>
-                <a class='home-icon' target="_blank" href="https://twitter.com/KirthiLynne"><i
-                        class="fab fa-twitter-square fa-2x"></i></a>
-                <a class='home-icon' target="_blank" href="https://www.linkedin.com/in/kirthi-bisset-720aa0104/"><i
-                        class="fab fa-linkedin fa-2x"></i></a>
+            <p id='about-info'>
+                <img id='mePic' src="./images/me.png">
+                Kirthi Lynne Bisset is a full stack web developer from Fairfax, Virginia.
+                She possesses a bachelor's degree in Information Systems and Operations Management with a minor in
+                Information Technology.
+                She has experience the fields of customer service, government billing and finance, and assistant
+                teaching.
+                Her positive attitude and penchant for learning and growing makes her a valuable asset to any team.
+                She additionally enjoys animated films, experiencing new things, spring weather, and spending time
+                with any of her several pets.
+            </p>
+
+        </section>
+        <section id="work">
+            <h1 class='title'>Portfolio</h1>
+            <div class="buttons">
+                <a class='btn' href="#home">Home</a>
+                <a class='btn' href="#about">About</a>
+                <a class='btn' href="#contact">Contact</a>
             </div>
-        </div>
+            <div class="project-content">
+                <div class="row1">
+                    <div class="card">
+                        <img src="./images/dclutter.png" alt="D-clutter" style="width:100%">
+                        <div class="container">
+                            <h4><b>D-Clutter</b></h4>
+                            <a class='project-icon' target="_blank" href="https://github.com/klynne23/DClutter"><i
+                                    class="fab fa-github fa-2x"></i></a>
+                            <a class='project-icon' target="_blank" href="https://dcclutter.herokuapp.com/"><i
+                                    class="fas fa-link fa-2x"></i></a>
+                            <p>MERN, Leaflet, Axios, React Router, Geocoding Google API </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/chronological.png" alt="chronological" style="width:100%">
+                        <div class="container">
+                            <h4><b>ChronoLogical</b></h4>
+                            <a class='project-icon' target="_blank" href="https://github.com/klynne23/ChronoLogical"><i
+                                    class="fab fa-github fa-2x"></i></a>
+                            <a class='project-icon' target="_blank" href="https://chronologicalgw.herokuapp.com/"><i
+                                    class="fas fa-link fa-2x"></i></a>
+                            <p>Node, MySQL, Sequelize, Handlebars, Express, Passport</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/marvel1.png" alt="marvel" style="width:100%">
+                        <div class="container">
+                            <h4><b>Marvel Hero Search</b></h4>
+                            <a class='project-icon' target="_blank" href="https://github.com/klynne23/marvel"><i
+                                    class="fab fa-github fa-2x"></i></a>
+                            <a class='project-icon' target="_blank" href="https://klynne23.github.io/marvel/"><i
+                                    class="fas fa-link fa-2x"></i></a>
+                            <p>HTML, CSS, JQuery, APIs, Ajax</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/pokemon.png" alt="pokemon" style="width:100%">
+                        <div class="container">
+                            <h4><b>Pokemon Game</b></h4>
+                            <a class='project-icon' target="_blank" href="https://github.com/klynne23/pokemongame"><i
+                                    class="fab fa-github fa-2x"></i></a>
+                            <a class='project-icon' target="_blank" href="https://klynne23.github.io/pokemongame/"><i
+                                    class="fas fa-link fa-2x"></i></a>
+
+                            <p>React, JSX, Bootstrap</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/expense_tracker.png" alt="expense-tracker" style="width:100%">
+                        <div class="container">
+                            <h4><b>Expense Tracker </b></h4>
+                            <a class='project-icon' target="_blank"
+                                href="https://github.com/klynne23/expense-tracker-app"><i
+                                    class="fab fa-github fa-2x"></i></a>
+                            <a class='project-icon' target="_blank"
+                                href="https://kb-expense-tracker-app.herokuapp.com"><i
+                                    class="fas fa-link fa-2x"></i></a>
+
+                            <p>React, JSX, Materialize</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="contact">
+            <h1 class='title'>Contact Me</h1>
+            <div class="buttons">
+                <a class='btn' href="#home">Home</a>
+                <a class='btn' href="#about">About</a>
+                <a class='btn' href="#work">Portfolio</a>
+            </div>
+            <div class="form">
+                <form id="form" class="topBefore" method='POST' action="https://formsubmit.co/kirthi.bisset@yahoo.com">
+                    <input id="name" type="text" placeholder="NAME" name='name' required>
+                    <input id="email" type="email" placeholder="E-MAIL" name='email' required>
+                    <textarea id="message" type="text" placeholder="MESSAGE" name="message" required></textarea>
+                    <input id="submit" type="submit" value="GO!">
+                </form>
+            </div>
+
+        </section>
     </div>
 
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('.btn').on('click', (event) => {
+                // console.log(event.currentTarget.hash);
+                if (event.currentTarget.hash !== '') {
+                    event.preventDefault();
+                    const hash = event.currentTarget.hash;
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script src="./code.js"></script>
-
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1000);
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
