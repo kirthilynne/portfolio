@@ -79,7 +79,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <h4><b>D-Clutter</b></h4>
+                        <h4>D-Clutter</h4>
                         <a class='project-icon' target="_blank" href="https://github.com/klynne23/DClutter"><i
                                 class="fab fa-github fa-2x"></i></a>
                         <a class='project-icon' target="_blank" href="https://dcclutter.herokuapp.com/"><i
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <h4><b>ChronoLogical</b></h4>
+                        <h4>ChronoLogical</h4>
                         <a class='project-icon' target="_blank" href="https://github.com/klynne23/ChronoLogical"><i
                                 class="fab fa-github fa-2x"></i></a>
                         <a class='project-icon' target="_blank" href="https://chronologicalgw.herokuapp.com/"><i
@@ -120,12 +120,32 @@
                         </div>
                     </div>
                     <div class="container">
-                        <h4><b>Marvel Hero Search</b></h4>
+                        <h4>Marvel Hero Search</h4>
                         <a class='project-icon' target="_blank" href="https://github.com/klynne23/marvel"><i
                                 class="fab fa-github fa-2x"></i></a>
                         <a class='project-icon' target="_blank" href="https://klynne23.github.io/marvel/"><i
                                 class="fas fa-link fa-2x"></i></a>
                         <p>HTML, CSS, JQuery, APIs, Ajax</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgDiv">
+                        <div class="toggle beautyToggle" data-project='beauty'>+</div>
+                        <div class="togglePlaceholder beautyPlaceholder"></div>
+                        <img src="./Gifs/Beauty.gif" alt="marvel" style="width:100%">
+                        <div class="content beautyContent">
+                            <p>Create a randomized beauty look to challenge yourself! Add/view products, product
+                                categories, save looks, and more!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h4>Beauty Look Randomizer</h4>
+                        <a class='project-icon' target="_blank" href="https://github.com/klynne23/beauty_randomizer"><i
+                                class="fab fa-github fa-2x"></i></a>
+                        <a class='project-icon' target="_blank" href="https://beauty-randomizer.herokuapp.com/"><i
+                                class="fas fa-link fa-2x"></i></a>
+                        <p>HTML, CSS, JQuery, Node</p>
                     </div>
                 </div>
                 <div class="card">
@@ -140,7 +160,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <h4><b>Pokemon Game</b></h4>
+                        <h4>Pokemon Game</h4>
                         <a class='project-icon' target="_blank" href="https://github.com/klynne23/pokemongame"><i
                                 class="fab fa-github fa-2x"></i></a>
                         <a class='project-icon' target="_blank" href="https://klynne23.github.io/pokemongame/"><i
@@ -161,7 +181,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <h4><b>Expense Tracker </b></h4>
+                        <h4>Expense Tracker </h4>
                         <a class='project-icon' target="_blank"
                             href="https://github.com/klynne23/expense-tracker-app"><i
                                 class="fab fa-github fa-2x"></i></a>
@@ -228,6 +248,11 @@
                         $('.marvelPlaceholder').toggleClass('clicked');
                         $('.marvelToggle').toggleClass('toggleActive');
                         $('.marvelContent').toggleClass('active');
+                        break;
+                    case 'beauty':
+                        $('.beautyPlaceholder').toggleClass('clicked');
+                        $('.beautyToggle').toggleClass('toggleActive');
+                        $('.beautyContent').toggleClass('active');
                         break;
                     case 'pokemon':
                         $('.pokemonPlaceholder').toggleClass('clicked');
